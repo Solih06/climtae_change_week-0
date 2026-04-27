@@ -1,4 +1,7 @@
-Climate Change Analysis: East & West Africa
+**Climate Change Analysis: East & West Africa**
+
+## [View the Live Dashboard Here](https://africaclimatechange.streamlit.app/)
+
 
 This project provides a comprehensive analysis of climate trends across Ethiopia, Kenya, Sudan, Nigeria, and Tanzania to support policy development for COP32. It features a data-driven approach to identifying regional climate vulnerabilities and an interactive dashboard for real-time exploration.
 
