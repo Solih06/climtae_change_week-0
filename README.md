@@ -64,6 +64,16 @@ Developed a Streamlit dashboard allowing users to filter by country and year ran
 
 Integrated Plotly charts to visualize temperature spikes and rainfall distribution.
 
+**Key Findings (COP32 Summary)**
+
+Based on the statistical analysis of climate data from 1990 to 2025, we have identified the following critical trends for the East and West African regions:
+
+* **Thermal Stress in Sudan:** Statistical testing (One-Way ANOVA) confirmed that **Sudan** experiences significantly higher average temperatures compared to its neighbors, with a notable increase in "extreme heat" days over the last decade.
+* **Rainfall Volatility in Nigeria & Tanzania:** While average rainfall remains steady, the **variance** has increased. This suggests a transition toward more extreme "wet-dry" cycles, increasing the risk of flash flooding in agricultural zones.
+* **Warming Trends in Ethiopia & Kenya:** Both nations show a consistent upward trend in minimum night-time temperatures, which can have a direct impact on crop maturation cycles and local biodiversity.
+* **Anomaly Detection:** Z-score analysis identified 2023 and 2024 as "Climate Anomaly Years" across all five countries, characterized by record-breaking temperature spikes that deviate significantly from the 30-year mean.
+
+
 **Dashboard Preview**
 
 Developed as part of the Climate Change Analysis Challenge (Week 0).
