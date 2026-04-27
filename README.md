@@ -1,36 +1,69 @@
-# Climate Challenge - Week 0
+Climate Change Analysis: East & West Africa
 
-## Project Structure
-- `src/`: Source code for the project.
-- `notebooks/`: Jupyter notebooks for data analysis.
-- `scripts/`: Python scripts for data processing.
-- `tests/`: Unit tests for the codebase.
+This project provides a comprehensive analysis of climate trends across Ethiopia, Kenya, Sudan, Nigeria, and Tanzania to support policy development for COP32. It features a data-driven approach to identifying regional climate vulnerabilities and an interactive dashboard for real-time exploration.
 
-## Setup Instructions
-To reproduce the development environment:
+ **Key Features**
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Solih06/climtae_change_week-0.git](https://github.com/Solih06/climtae_change_week-0.git)
-   cd climtae_change_week-0
+Multi-Country Comparison: Integrated climate data across 5 African nations to identify regional risks.
 
-  ---
+Statistical Insights: Confirmed regional variance using One-Way ANOVA and Z-score anomaly detection.
 
-## **Interim Progress Report: Climate Change Analysis (Week 0)**
+Interactive Dashboard: Built with Streamlit to visualize temperature trends and rainfall volatility dynamically.
 
-**Date:** April 26, 2026  
-**Status:** Tasks 1 & 2 Completed
+**Project Structure**
 
-### **1. Task 1: Project Environment & Infrastructure**
-* **Repository Management:** Established a GitHub repository with a clear branching strategy.
-* **Folder Hierarchy:** Implemented a standard data science directory structure: `/data`, `/notebooks`, `scripts/`, and `tests/`.
-* **Environment Control:** Created `requirements.txt` and `.gitignore` to manage dependencies and keep the repo clean.
+app/: Contains the Streamlit dashboard (main.py) and modular helper functions (utils.py).
 
-### **2. Task 2: Exploratory Data Analysis (EDA) - Ethiopia**
-* **Data Cleaning:** Replaced NASA sentinel values (`-999`) with `NaN` and performed forward-fill imputation.
-* **Statistical Analysis:** Used Z-score analysis to identify extreme weather anomalies.
-* **Visualizations:** Generated a daily temperature line plot and a monthly precipitation bar chart identifying the **Kiremt** rainy season.
-* **Output:** Saved the refined data as `data/ethiopia_clean.csv`.
+notebooks/: Jupyter notebooks covering EDA, data cleaning, and statistical testing.
 
-### **3. Technical Challenges**
-Resolved "refspec" and branch synchronization errors by aligning local work with the remote `eda-ethiopia` branch before merging into `main`.
+data/: Cleaned CSV datasets for each country.
+
+scripts/: Python utility scripts for data processing and directory initialization.
+
+**Setup & Installation**
+
+Follow these steps to set up the project on your local machine:
+
+Clone the repository:
+
+git clone [https://github.com/Solih06/climate_change_week-0.git](https://github.com/Solih06/climate_change_week-0.git)
+cd climate_change_week-0
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Run the Dashboard:
+
+streamlit run app/main.py
+
+
+**Project Milestones**
+
+1. Exploratory Data Analysis (EDA)
+
+Cleaned NASA Power data by replacing sentinel values (-999) with NaNs.
+
+Performed forward-fill imputation to handle missing time-series data.
+
+Identified seasonal patterns (e.g., Ethiopia's Kiremt rainy season) and extreme weather anomalies.
+
+2. Cross-Country Statistical Analysis
+
+Synthesized data from five nations into a master analysis.
+
+Conducted One-Way ANOVA ($p < 0.001$), identifying Sudan as the most thermally stressed region.
+
+Analyzed rainfall variance to pinpoint flood-risk zones in Nigeria and Tanzania.
+
+3. Interactive Visualization
+
+Developed a Streamlit dashboard allowing users to filter by country and year range.
+
+Integrated Plotly charts to visualize temperature spikes and rainfall distribution.
+
+**Dashboard Preview**
+
+Developed as part of the Climate Change Analysis Challenge (Week 0).
