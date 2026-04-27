@@ -68,4 +68,3 @@ Integrated Plotly charts to visualize temperature spikes and rainfall distributi
 
 Developed as part of the Climate Change Analysis Challenge (Week 0).
 ![Climate Dashboard](Screenshot_27-4-2026_9951_localhost.jpeg)
-https://github.com/Solih06/climate_change_week-0/blob/main/Screenshot%202026-04-27%20at%2009-13-56%20Solih06_climate_change_week-0.png
